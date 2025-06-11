@@ -16,6 +16,7 @@ export const Home = () => {
           responsive web applications. I specialize in building user-friendly
           interfaces and robust back-end systems that deliver seamless
           experiences.
+          
         </p>
         <div className="flex justify-center space-x-4">
           <a
