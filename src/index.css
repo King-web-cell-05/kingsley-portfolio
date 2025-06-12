@@ -52,17 +52,21 @@ footer{
 }
 @media (max-width: 600px) {
   input{
-    width: 30rem;
-    margin-left: 3rem;
+    width: 21rem;
+    margin-left: 7.2rem;
   }
   textarea{
-    width: 30rem;
-    margin-left: 3rem;
+    width: 21rem;
+    margin-left: 7.2rem;
   }
   button{
 
-    width: 30rem;
-    margin-left: 3rem;
+    width: 21rem;
+    margin-left: 7.2rem;
+  }
+
+  footer{
+    font-size: 0.8rem;
   }
 }
   
