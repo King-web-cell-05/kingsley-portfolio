@@ -1,4 +1,6 @@
 import { RevealOnScroll } from "./RevealOnScroll";
+import todoAppImg from "../assets/Images/Todo-app.jpg";
+import weatherAppImg from "../assets/Images/weather-apc-org.jpg";
 
 export const Projects = () => {
   return (
@@ -13,7 +15,8 @@ export const Projects = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
-            <h3>Todo-App</h3>
+            <h3>Todo-App</h3> <br />
+            <img src={todoAppImg} alt="Todo App" />
             <p className="text-gray-400 mb-4">
               Intuitive Todo App, where you can effortlessly organise tasks and
               achieve your goals. Get more done in less time and feel
@@ -35,7 +38,8 @@ export const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
-            <h3>Weather-App</h3>
+            <h3>Weather-App</h3> <br />
+            <img src={weatherAppImg} alt="Weather App" />
             <p className="text-gray-400 mb-4">
               Get instant access to accurate weather forecasts, Stay prepared for anything the skies may bring and plan your day with confidence.{" "}
             </p>
