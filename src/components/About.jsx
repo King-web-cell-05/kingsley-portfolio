@@ -17,7 +17,7 @@ export const About = () => {
         <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y">
           <p>
             Passionate developer with expertise in building scalable web
-            applications and creating innovative solutions.
+            applications and creating innovative solutions.As a versitile full stack developer, I craft seamless digital experiences by bridging the gap between front-end finesse and back-end expertise.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
