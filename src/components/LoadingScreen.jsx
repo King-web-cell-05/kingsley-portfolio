@@ -15,9 +15,9 @@ export const LoadingScreen = ({onComplete}) => {
 
                 setTimeout(() => {
                     onComplete();
-                }, 1000)
+                }, 500);// Delay before removing the loading screen
             }
-        }, 100);
+        }, 50); // Adjust the speed of typing effect here
         return() => clearInterval(interval)
     }, [])
   return (

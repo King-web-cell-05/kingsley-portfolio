@@ -35,7 +35,7 @@ export const Projects = () => {
               ))}
             </div>
             <div className="flex justify-between items-center">
-                <a href="https://king-web-cell-05.github.io/todo-app/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a target="_blank" rel="noreferral" href="https://king-web-cell-05.github.io/todo-app/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ export const Projects = () => {
               ))}
             </div>
             <div className="flex justify-between items-center">
-                <a href="https://king-web-cell-05.github.io/weather-Apc/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a target="_blank" href="https://king-web-cell-05.github.io/weather-Apc/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
 
@@ -77,7 +77,7 @@ export const Projects = () => {
               ))}
             </div>
             <div className="flex justify-between items-center">
-                <a href="https://king-web-cell-05.github.io/login-design/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a target="_blank" href="https://king-web-cell-05.github.io/login-design/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
 
@@ -99,7 +99,7 @@ export const Projects = () => {
               ))}
             </div>
             <div className="flex justify-between items-center">
-                <a href="https://king-web-cell-05.github.io/boltex/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a target="_blank" href="https://king-web-cell-05.github.io/boltex/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
 
