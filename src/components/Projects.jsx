@@ -1,8 +1,8 @@
 import { RevealOnScroll } from "./RevealOnScroll";
-import todoAppImg from "../assets/Images/Todo-app.jpg";
-import weatherAppImg from "../assets/Images/weather-apc-org.jpg";
-import loginPageImg from "../assets/Images/login-page.jpg";
-import webPageImg from "../assets/Images/web-page-Design.jpg";
+import todoAppImg from "../assets/images/Todo-app.jpg";
+import weatherAppImg from "../assets/images/weather-apc-org.jpg";
+import loginPageImg from "../assets/images/login-page.jpg";
+import webPageImg from "../assets/images/web-page-Design.jpg";
 
 export const Projects = () => {
   return (
