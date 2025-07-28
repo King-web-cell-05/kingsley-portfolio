@@ -4,6 +4,7 @@ import weatherAppImg from "../assets/images/weather-apc-org.jpg";
 import loginPageImg from "../assets/images/login-page.jpg";
 import webPageImg from "../assets/images/web-page-Design.jpg";
 import profileCardImg from "../assets/images/profile-card-pic.png";
+import realEstateImg from "../assets/images/real-estate-pic.jpg"
 export const Projects = () => {
   return (
     <section
@@ -113,6 +114,31 @@ export const Projects = () => {
             </p>
             <div>
               {["HTML", "CSS"].map((tech, key) => (
+                <span
+                  key={key}
+                  className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-xfull text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.1 )] transition-all"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+            <div className="flex justify-between items-center">
+                <a target="_blank" rel="noreferral" href="https://king-web-cell-05.github.io/profile-card-design/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          
+           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
+            <h3>Real Estate Website</h3> <br />
+            <img src={realEstateImg} alt="Real Estate Website" /> <br />
+            <p className="text-gray-400 mb-4">
+              A real estate website is a platform that allows users to browse,
+              buy, and sell properties. It typically includes property listings,
+              search functionality, and information about the buying/selling
+              process.
+            </p>
+            <div>
+              {[ "React", "HTML", "CSS", "JavaScript" ].map((tech, key) => (
                 <span
                   key={key}
                   className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-xfull text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.1 )] transition-all"
