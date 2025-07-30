@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "./RevealOnScroll";
-import todoAppImg from "../assets/images/todo_app.jpg";
+// import todoAppImg from "../assets/images/todo_app.jpg";
 import weatherAppImg from "../assets/images/weather-apc-org.jpg";
 import loginPageImg from "../assets/images/login-page.jpg";
 import webPageImg from "../assets/images/web-page-design.jpg";
@@ -17,7 +17,7 @@ export const Projects = () => {
           Featured Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
+          {/* <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Todo-App</h3> <br />
             <img src={todoAppImg} alt="Todo App" /> <br />
             <p className="text-gray-400 mb-4">
@@ -38,7 +38,7 @@ export const Projects = () => {
             <div className="flex justify-between items-center">
                 <a target="_blank" rel="noreferral" href="https://king-web-cell-05.github.io/todo-app/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-          </div>
+          </div> */}
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Weather-App</h3> <br />
