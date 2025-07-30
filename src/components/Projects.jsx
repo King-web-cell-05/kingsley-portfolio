@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "./RevealOnScroll";
-import todoAppImg from "../assets/images/todo-app.jpg";
+import todoAppImg from "../assets/images/todo_app.jpg";
 import weatherAppImg from "../assets/images/weather-apc-org.jpg";
 import loginPageImg from "../assets/images/login-page.jpg";
 import webPageImg from "../assets/images/web-page-design.jpg";
