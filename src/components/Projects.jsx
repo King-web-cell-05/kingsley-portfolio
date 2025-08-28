@@ -1,10 +1,5 @@
 import { RevealOnScroll } from "./RevealOnScroll";
- import todoAppImg from "../assets/images/todo-app.jpg";
-import weatherAppImg from "../assets/images/weather-apc-org.jpg";
-import loginPageImg from "../assets/images/login-page.jpg";
-import webPageImg from "../assets/images/web-page-design.jpg";
-import profileCardImg from "../assets/images/profile-card-pic.png";
-import realEstateImg from "../assets/images/real-estate-pic.jpg"
+
 export const Projects = () => {
   return (
     <section
@@ -19,7 +14,7 @@ export const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Todo-App</h3> <br />
-            <img src={todoAppImg} alt="Todo App" /> <br />
+            <img src="/images/todo-app.jpg" alt="Todo App" /> <br />
             <p className="text-gray-400 mb-4">
               Intuitive Todo App, where you can effortlessly organise tasks and
               achieve your goals. Get more done in less time and feel
@@ -42,7 +37,7 @@ export const Projects = () => {
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Weather-App</h3> <br />
-            <img src={weatherAppImg} alt="Weather App" /> <br />
+            <img src="/images/weather-app.jpg" alt="Weather App" /> <br />
             <p className="text-gray-400 mb-4">
               Get instant access to accurate weather forecasts, Stay prepared for anything the skies may bring and plan your day with confidence.{" "}
             </p>
@@ -63,7 +58,7 @@ export const Projects = () => {
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Login-Page</h3> <br />
-            <img src={loginPageImg} alt="Login Page" /> <br />
+            <img src="/images/login-page.jpg" alt="Login Page" /> <br />
             <p className="text-gray-400 mb-4">
               A login page is the gateway to your application, providing a secure and user-friendly interface for authentication.{" "}
             </p>
@@ -85,7 +80,7 @@ export const Projects = () => {
           
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Web-Page-design</h3> <br />
-            <img src={webPageImg} alt="Web Page Design" /> <br />
+            <img src="/images/web-page-design.jpg" alt="Web Page Design" /> <br />
               <p className="text-gray-400 mb-4">
                Clean lines, subtle colors, and a focus on typography come together to create a visually stunning and user-friendly web page Design.
               </p>
@@ -106,7 +101,7 @@ export const Projects = () => {
 
            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Profile Card Design</h3> <br />
-            <img src={profileCardImg} alt="Profile Card" /> <br />
+            <img src="/images/profile-card.jpg" alt="Profile Card" /> <br />
             <p className="text-gray-400 mb-4">
               A profile card is a UI element that displays a user's information
               in a concise and visually appealing manner. It typically includes
@@ -130,7 +125,7 @@ export const Projects = () => {
           
            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Real Estate Website</h3> <br />
-            <img src={realEstateImg} alt="Real Estate Website" /> <br />
+            <img src="/images/real-estate.jpg" alt="Real Estate Website" /> <br />
             <p className="text-gray-400 mb-4">
               A real estate website is a platform that allows users to browse,
               buy, and sell properties. It typically includes property listings,
