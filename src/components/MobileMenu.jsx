@@ -7,7 +7,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-[9999] flex flex-col items-center justify-center transition-all duration-300 ease-in-out overflow hidden
+      className={`fixed top-0 left-0 w-full z-[9999] flex flex-col items-center justify-center transition-all duration-300 ease-in-out 
         ${menuOpen ? "h-screen opacity-100 pointer-events-auto" : "h-0 opacity-0 pointer-events-none"}
         md:hidden  bg-gradient-to-b from-black via-gray-900 to-black
       `}
