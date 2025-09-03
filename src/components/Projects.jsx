@@ -37,7 +37,7 @@ export const Projects = () => {
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Weather-App</h3> <br />
-            <img src="/images/weather-app.jpg" alt="Weather App" /> <br />
+            <img src="/images/weather-apc.jpg" alt="Weather App" /> <br />
             <p className="text-gray-400 mb-4">
               Get instant access to accurate weather forecasts, Stay prepared for anything the skies may bring and plan your day with confidence.{" "}
             </p>
@@ -101,7 +101,7 @@ export const Projects = () => {
 
            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
             <h3>Profile Card Design</h3> <br />
-            <img src="/images/profile-card.jpg" alt="Profile Card" /> <br />
+            <img src="/images/profile-card.png" alt="Profile Card" /> <br />
             <p className="text-gray-400 mb-4">
               A profile card is a UI element that displays a user's information
               in a concise and visually appealing manner. It typically includes
