@@ -79,13 +79,13 @@ export const Projects = () => {
 
           
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.2 )] transition-all">
-            <h3>Web-Page-design</h3> <br />
-            <img src="/images/web-page-design.jpg" alt="Web Page Design" /> <br />
+            <h3>Quiz-App</h3> <br />
+            <img src="/images/quiz-app.png" alt="Quiz App" /> <br />
               <p className="text-gray-400 mb-4">
-               Clean lines, subtle colors, and a focus on typography come together to create a visually stunning and user-friendly web page Design.
+               Test your knowledge with a fun and interactive quiz app. Challenge yourself with various react questions and track your progress.
               </p>
             <div>
-              {["HTML", "CSS"].map((tech, key) => (
+              {["HTML", "CSS", "JavaScript", "React"].map((tech, key) => (
                 <span
                   key={key}
                   className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246,0.1 )] transition-all"
@@ -95,7 +95,7 @@ export const Projects = () => {
               ))}
             </div>
             <div className="flex justify-between items-center">
-                <a target="_blank" href="https://king-web-cell-05.github.io/boltex/" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a target="_blank" href="https://quiz-app-rho-ebon.vercel.app" className="text-blue-400 hover: text-blue-300 transition colors my-4">View Projects <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
 
