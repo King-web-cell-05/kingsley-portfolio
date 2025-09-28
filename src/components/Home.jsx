@@ -4,7 +4,8 @@ export const Home = () => {
   return (
     <section
       id="Home"
-      className="min-h-screen flex items-center justify-center relative"
+      className="min-h-screen w-full flex items-center justify-center 
+      relative bg-black"
     >
         <RevealOnScroll>
       <div className="text-center z-10 px-4">

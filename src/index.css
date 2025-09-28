@@ -4,7 +4,8 @@ html,body{
   padding: 0px;
   font-family: "Space Grotesk",sans-serif; 
   background-color: #0a0a0a;
-  color: #f3f4f6; 
+  color: #f3f4f6;
+    overflow-x: hidden; 
 }
 
 @layer{

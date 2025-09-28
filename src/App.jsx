@@ -27,6 +27,7 @@ function App() {
         <About/>
         <Projects/>
         <Contact/>
+        <MobileMenu/>
       </div>
     </>
   );
