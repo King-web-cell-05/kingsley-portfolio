@@ -14,7 +14,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             href="#Home"
             className="text-2xl font-bold text-white flex items-center space-x-2"
           >
-          <img src="/public/images/my-image.jpg" alt="" className="rounded-3xl size-10"  />
+          <img src="/images/my-image.jpg" alt="" className="rounded-3xl size-10"  />
 
             <p className="hover:text-blue-500 transition-colors duration-300">Kingsley</p> <span className="text-blue-500">Dada</span>
           </a>
